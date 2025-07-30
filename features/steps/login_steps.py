@@ -18,3 +18,5 @@ def step_impl(context): context.login_page.verifica_login_reusit("You Might Also
 
 @then('Ar trebui sa vad un mesaj de eroare pentru login esuat')
 def step_impl(context): context.login_page.verifica_mesaj_eroare("Your username or password was incorrect")
+
+# new comment

@@ -13,3 +13,5 @@ def after_all(context):
     if hasattr(context, 'browser'):
         print("✅ FILMARILE S-AU INCHEIAT.")
         context.browser.close()
+
+# new comment
