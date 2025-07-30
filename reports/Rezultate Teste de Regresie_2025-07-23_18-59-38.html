@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HapiBeats - Raport de Testare Automata</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">HapiBeats - Raport de Testare Automata</h2>
+                <p class='attribute'><strong>Start Time: </strong>2025-07-23 18:59:38</p>
+                <p class='attribute'><strong>Duration: </strong>72.41 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 5, Pass: 3, Error: 2</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestAutentificareHapiBeats</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_login_esuat</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_login_reusit</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 2, Pass: 2 -- Duration: 22.49 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestSearchFunctionality</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_search_no_results</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 1 -- Duration: 20.71 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestInregistrareHapiBeats</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_validare_parola_nepotrivita</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff611a66f95+76917]
+	GetHandleVerifier [0x0x7ff611a66ff0+77008]
+	(No symbol) [0x0x7ff611819c1c]
+	(No symbol) [0x0x7ff611869922]
+	(No symbol) [0x0x7ff61186778e]
+	(No symbol) [0x0x7ff61189846a]
+	(No symbol) [0x0x7ff611862c16]
+	(No symbol) [0x0x7ff611898680]
+	(No symbol) [0x0x7ff6118c065c]
+	(No symbol) [0x0x7ff611898243]
+	(No symbol) [0x0x7ff611861431]
+	(No symbol) [0x0x7ff6118621c3]
+	GetHandleVerifier [0x0x7ff611d3d2cd+3051437]
+	GetHandleVerifier [0x0x7ff611d37923+3028483]
+	GetHandleVerifier [0x0x7ff611d558bd+3151261]
+	GetHandleVerifier [0x0x7ff611a8185e+185662]
+	GetHandleVerifier [0x0x7ff611a8971f+218111]
+	GetHandleVerifier [0x0x7ff611a6fb14+112628]
+	GetHandleVerifier [0x0x7ff611a6fcc9+113065]
+	GetHandleVerifier [0x0x7ff611a56c98+10616]
+	BaseThreadInitThunk [0x0x7ffd9e52e8d7+23]
+	RtlUserThreadStart [0x0x7ffd9f81c34c+44]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\regression_test_suite_hapibeats.py", line 33, in test_validare_parola_nepotrivita
+    self.driver.find_element(By.ID, 'username').send_keys("testuser12345")
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 304, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {"text": "".join(keys_to_typing(value)), "value": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff611a66f95+76917]
+	GetHandleVerifier [0x0x7ff611a66ff0+77008]
+	(No symbol) [0x0x7ff611819c1c]
+	(No symbol) [0x0x7ff611869922]
+	(No symbol) [0x0x7ff61186778e]
+	(No symbol) [0x0x7ff61189846a]
+	(No symbol) [0x0x7ff611862c16]
+	(No symbol) [0x0x7ff611898680]
+	(No symbol) [0x0x7ff6118c065c]
+	(No symbol) [0x0x7ff611898243]
+	(No symbol) [0x0x7ff611861431]
+	(No symbol) [0x0x7ff6118621c3]
+	GetHandleVerifier [0x0x7ff611d3d2cd+3051437]
+	GetHandleVerifier [0x0x7ff611d37923+3028483]
+	GetHandleVerifier [0x0x7ff611d558bd+3151261]
+	GetHandleVerifier [0x0x7ff611a8185e+185662]
+	GetHandleVerifier [0x0x7ff611a8971f+218111]
+	GetHandleVerifier [0x0x7ff611a6fb14+112628]
+	GetHandleVerifier [0x0x7ff611a6fcc9+113065]
+	GetHandleVerifier [0x0x7ff611a56c98+10616]
+	BaseThreadInitThunk [0x0x7ffd9e52e8d7+23]
+	RtlUserThreadStart [0x0x7ffd9f81c34c+44]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 13.77 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestPlaylistManagement</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_delete_playlist_alert</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">ElementClickInterceptedException: Message: element click intercepted: Element <div class="gridViewInfo">...</div> is not clickable at point (1000, 599). Other element would receive the click: <div id="nowPlayingBar">...</div>
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff611a66f95+76917]
+	GetHandleVerifier [0x0x7ff611a66ff0+77008]
+	(No symbol) [0x0x7ff611819dea]
+	(No symbol) [0x0x7ff611878269]
+	(No symbol) [0x0x7ff611875c02]
+	(No symbol) [0x0x7ff611872c41]
+	(No symbol) [0x0x7ff611871b31]
+	(No symbol) [0x0x7ff611863368]
+	(No symbol) [0x0x7ff61189846a]
+	(No symbol) [0x0x7ff611862c16]
+	(No symbol) [0x0x7ff611898680]
+	(No symbol) [0x0x7ff6118c065c]
+	(No symbol) [0x0x7ff611898243]
+	(No symbol) [0x0x7ff611861431]
+	(No symbol) [0x0x7ff6118621c3]
+	GetHandleVerifier [0x0x7ff611d3d2cd+3051437]
+	GetHandleVerifier [0x0x7ff611d37923+3028483]
+	GetHandleVerifier [0x0x7ff611d558bd+3151261]
+	GetHandleVerifier [0x0x7ff611a8185e+185662]
+	GetHandleVerifier [0x0x7ff611a8971f+218111]
+	GetHandleVerifier [0x0x7ff611a6fb14+112628]
+	GetHandleVerifier [0x0x7ff611a6fcc9+113065]
+	GetHandleVerifier [0x0x7ff611a56c98+10616]
+	BaseThreadInitThunk [0x0x7ffd9e52e8d7+23]
+	RtlUserThreadStart [0x0x7ffd9f81c34c+44]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\regression_test_suite_hapibeats.py", line 142, in test_delete_playlist_alert
+    playlist_element.click()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 120, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 573, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\George\PycharmProjects\HapiBeats_Selenium_Tests\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="gridViewInfo">...</div> is not clickable at point (1000, 599). Other element would receive the click: <div id="nowPlayingBar">...</div>
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff611a66f95+76917]
+	GetHandleVerifier [0x0x7ff611a66ff0+77008]
+	(No symbol) [0x0x7ff611819dea]
+	(No symbol) [0x0x7ff611878269]
+	(No symbol) [0x0x7ff611875c02]
+	(No symbol) [0x0x7ff611872c41]
+	(No symbol) [0x0x7ff611871b31]
+	(No symbol) [0x0x7ff611863368]
+	(No symbol) [0x0x7ff61189846a]
+	(No symbol) [0x0x7ff611862c16]
+	(No symbol) [0x0x7ff611898680]
+	(No symbol) [0x0x7ff6118c065c]
+	(No symbol) [0x0x7ff611898243]
+	(No symbol) [0x0x7ff611861431]
+	(No symbol) [0x0x7ff6118621c3]
+	GetHandleVerifier [0x0x7ff611d3d2cd+3051437]
+	GetHandleVerifier [0x0x7ff611d37923+3028483]
+	GetHandleVerifier [0x0x7ff611d558bd+3151261]
+	GetHandleVerifier [0x0x7ff611a8185e+185662]
+	GetHandleVerifier [0x0x7ff611a8971f+218111]
+	GetHandleVerifier [0x0x7ff611a6fb14+112628]
+	GetHandleVerifier [0x0x7ff611a6fcc9+113065]
+	GetHandleVerifier [0x0x7ff611a56c98+10616]
+	BaseThreadInitThunk [0x0x7ffd9e52e8d7+23]
+	RtlUserThreadStart [0x0x7ffd9f81c34c+44]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 15.44 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
